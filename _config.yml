@@ -1,22 +1,18 @@
-title: "Blog Title"
+title: "writtenbygaurav"
 author: "Gaurav"
-description: "My blog"
+description: "write stuff idk"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
-
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: false               # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
+show_sidebar: true              # Set to true to see your icons!
 show_minimal: false             # remove all clutter
 
-#show_frame: "/assets/images/background.svg"
-
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
+# Menu (Icons from FontAwesome v5)
 navigation:
   - {file: "archive.html", title: "Archive", sidebaricon: home}
   - {url: "/about/", title: "About Me", sidebaricon: address-card}
@@ -26,8 +22,8 @@ external:
   - {title: Mastodon, icon: mastodon, url: "https://mastodon.social/@gauravwrites"}
   
 comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
+#  disqus_shortname: ""
+#  isso_domain: ""
 
 plugins:
  - jekyll-feed
