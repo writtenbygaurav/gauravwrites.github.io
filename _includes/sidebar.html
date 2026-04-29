@@ -11,9 +11,7 @@
     <a href="{{ url | relative_url }}" class="{% if url == page.url %}selected{% endif %}">
       
       {% if icon == "pixelfed" %}
-        <svg width="1em" height="1em" viewBox="0 0 24 24" style="vertical-align: middle; fill: currentColor;" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.834 16.03a1.44 1.44 0 0 1-1.396 1.116H7.562a1.44 1.44 0 0 1-1.396-1.116L5.05 10.322a1.44 1.44 0 0 1 .436-1.428l3.6-3.23a1.44 1.44 0 0 1 1.928 0l.986.885.986-.885a1.44 1.44 0 0 1 1.928 0l3.6 3.23a1.44 1.44 0 0 1 .436 1.428l-1.116 5.708z"/>
-        </svg>
+        <img src="{{ '/assets/images/pixelfed.svg' | relative_url }}" style="width: 1em; height: 1em; vertical-align: middle; fill: currentColor;">
       {% else %}
         <svg aria-hidden="true" width="1em" height="1em"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ icon }}"></use></svg>
       {% endif %}
