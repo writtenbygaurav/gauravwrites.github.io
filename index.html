@@ -1,20 +1,18 @@
 ---
-layout: page
+layout: default
 title: "Home"
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article>
-      {% include meta.html post=post %}
-      
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+{% for post in site.posts %}
+  <article>
+    {% include meta.html post=post %}
+    
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
 
-      <footer class="button">
-        <a href="{{ post.url | relative_url }}">read more</a>
-      </footer>
-    </article>
-  {% endfor %}
-</div>
+    <footer class="button">
+      <a href="{{ post.url | relative_url }}">read more</a>
+    </footer>
+  </article>
+{% endfor %}
