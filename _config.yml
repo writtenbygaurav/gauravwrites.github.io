@@ -3,13 +3,13 @@ author: "Gaurav"
 description: "write stuff idk"
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
+excerpt_separator: "\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: false               # display a grey frame on large screens
-show_sidebar: false              # Set to true to see your icons!
+show_sidebar: true              # Set to true to see your icons!
 show_minimal: false             # remove all clutter
 
 # Menu (Icons from FontAwesome v5)
