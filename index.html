@@ -3,7 +3,9 @@ layout: default
 title: "Home"
 ---
 
-{% for post in site.posts limit:5 %}
+{% assign recent_posts = site.posts | slice: 0, 2 %}
+
+{% for post in recent_posts %}
   <article>
     {% include meta.html post=post %}
     
