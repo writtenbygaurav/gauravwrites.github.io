@@ -25,4 +25,5 @@ external:
 # SEO & Discovery
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag # Add this! It's the gold standard for Google discovery
+  - jekyll-sitemap
+  - jekyll-seo-tag
