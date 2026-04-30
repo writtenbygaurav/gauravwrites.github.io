@@ -1,29 +1,26 @@
-title: "writtenbygaurav"
+title: "Gaurav Writes"
 author: "Gaurav"
 description: "write stuff idk"
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 date_format: "%B %d, %Y"
 
 # Layout
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: false               # display a grey frame on large screens
-show_sidebar: true              # Set to true to see your icons!
-show_minimal: false             # remove all clutter
+show_excerpts: true
+show_frame: false
+show_sidebar: false
+show_minimal: false
 
-# Menu (Icons from FontAwesome v5)
+# Menu
 navigation:
-  - {file: "archive.html", title: "Archive", sidebaricon: home}
-  - {url: "/about/", title: "About Me", sidebaricon: address-card}
+  - {url: "/", title: "Home"}
+  - {url: "/archive/", title: "Archive"}
+  - {url: "/about/", title: "About Me"}
 
 external:
   - {title: Mail, icon: envelope, url: "mailto:write@gauravwrites.com"}
   - {title: Mastodon, icon: mastodon, url: "https://mastodon.social/@gauravwrites"}
-  
-comments:
-#  disqus_shortname: ""
-#  isso_domain: ""
 
 plugins:
  - jekyll-feed
