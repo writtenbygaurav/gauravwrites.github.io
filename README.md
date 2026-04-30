@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Me"
+title: "Hello!"
 permalink: /about/
 ---
-i go around sniffing toes and i like to drink orange juice 
+I'm Gaurav. Here I will write whatever's on my mind. It's usually a merge of philosophy, politics and history.
