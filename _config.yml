@@ -6,15 +6,11 @@ lang: "en"
 excerpt_separator: "<!--more-->"
 date_format: "%B %d, %Y"
 
-# Layout Settings
+# Layout
 show_excerpts: true
 show_frame: false
 show_sidebar: false
 show_minimal: false
-
-# Pagination
-paginate: 4
-paginate_path: "/page:num/"
 
 # Menu
 navigation:
@@ -27,4 +23,3 @@ external:
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
